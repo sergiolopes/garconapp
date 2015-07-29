@@ -1,0 +1,27 @@
+/* estilo inicial */
+body {
+    background-color: #F2F2F2;
+}
+
+/* estilo do titulo */
+.titulo {
+    font-size: 1.3rem;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+/* cor da aba */
+.tabs .indicator {
+    background-color: white;
+}
+
+/* fixo no topo */
+.topo-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.section {
+    padding-top: 125px;
+}
