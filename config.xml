@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.sergiolopes.garconapp"
+        version="0.0.1"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+	<name>Garçonete Só de Cenoura</name>
+
+	<description>
+	    App de uso das garçonetes do
+	    restaurante Só de Cenoura.
+	</description>
+
+	<author href="http://sergiolopes.org"
+	        email="qualquer@sergiolopes.org">
+	    Sérgio Lopes
+	</author>
+
+	<preference name="Orientation" value="portrait" />
+	<preference name="BackgroundColor" value="0xF2F2F2FF" />
+	<preference name="DisallowOverscroll" value="true" />
+
+</widget>
