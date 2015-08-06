@@ -85,4 +85,7 @@
 		<splash src="resources/windows/splash/SplashScreen.scale-240.png" width="1152" height="1920" />
 		<splash src="resources/windows/splash/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
 	</platform>
+
+	<!-- Plataforma Android -->
+	<engine name="android" />
 </widget>
