@@ -88,4 +88,8 @@
 
 	<!-- Plataforma Android -->
 	<engine name="android" />
+
+	<!-- Plugins -->
+	<plugin name="phonegap-plugin-barcodescanner" spec="*" />
+
 </widget>
