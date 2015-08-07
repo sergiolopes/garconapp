@@ -91,5 +91,15 @@
 
 	<!-- Plugins -->
 	<plugin name="phonegap-plugin-barcodescanner" spec="*" />
+	<plugin name="cordova-plugin-statusbar" spec="*" />
+	<!-- Status bar -->
+	<platform name="android">
+        <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    </platform>
+
+    <platform name="ios">
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#F57F17" />
+    </platform>
 
 </widget>
