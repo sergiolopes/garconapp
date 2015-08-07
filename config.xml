@@ -92,6 +92,7 @@
 	<!-- Plugins -->
 	<plugin name="phonegap-plugin-barcodescanner" spec="*" />
 	<plugin name="cordova-plugin-statusbar" spec="*" />
+	<plugin name="cordova-plugin-whitelist" spec="*" />
 
 	<!-- Status bar -->
 	<platform name="android">
@@ -102,5 +103,8 @@
 		<preference name="StatusBarOverlaysWebView" value="false" />
 		<preference name="StatusBarBackgroundColor" value="#F57F17" />
 	</platform>
+
+	<!-- Libera acesso -->
+	<access origin="http://cozinhapp.sergiolopes.org" />
 
 </widget>
